@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+		
+    <meta charset="UTF-8" />
+    <title>Star Wars</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	<link href="css/offcanvas.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+	<script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+	
+	<style>
+		body {
+			color:black;
+			background-image:url(https://wallpaperscraft.com/image/star_wars_battlefront_electronic_arts_105865_1920x1080.jpg);
+		}
+		
+		.row {
+		background : white;
+		opacity : 0.9;
+		}
+		</style>
+	
+	
+	
+    <!-- No need for Babel! -->
+  </head>
+  <body>
+	<nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Star Wars</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-image">
+					<img src="http://lolgadgets.com/wp-content/uploads/2015/07/Yoda-USB-400x400.jpg" width="600" height="600" class="img-thumbnail" alt="Generic placeholder thumbnail"/>
+					<span class="card-title"><div id="author_example"></div></span>
+				</div>
+				<div class="card-content">
+					<div id="example"></div>
+				</div>
+				<div class="card-action">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div id="content"></div>
+			<INPUT TYPE="submit" NAME="Refresh" VALUE=" Refresh " onclick="reset();">
+			<div class="list-group" id="auteur"></div>
+			<div id="inflexible-list-render2"></div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	
+	
+	
+	
+    
+	
+	
+    <script src="build/app.js"></script>
+	
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+	
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="offcanvas.js"></script>
+	
+	
+  </body>
+</html>
